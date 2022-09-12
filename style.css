@@ -1,0 +1,50 @@
+body {
+    background-color:#262626;
+	/*animation: blinkingWord .5s infinite;*/
+}
+
+h1{
+    /*animation: biggerWord .5s infinite;*/ 
+    color: #73161E;
+}
+
+.circle{
+    list-style-type: circle;
+}
+
+h2{
+    color:#F24162;
+}
+
+li{
+    color:#A6A6A6;
+}
+
+@keyframes blinkingWord{
+    0%		{ color: #10c018;}
+    25%		{ color: #1056c0;}
+    50%		{ color: #ef0a1a;}
+    75%		{ color: #254878;}
+    100%	{ color: #04a1d5;}
+}
+
+@keyframes biggerWord{
+    0%		{ font-size: 5;}
+    25%		{ font-size: 15;}
+    50%		{ font-size: 25;}
+    75%		{ font-size: 30;}
+    100%	{ font-size: 20;}
+}
+
+body {
+    padding-top: 3.5rem;
+  }
+  .jumbotron{
+      background-size: cover;
+  }
+  .jumboTitle{
+      color:#73161E;
+  }
+  .jumboText{
+      color:#F24162;
+  }
